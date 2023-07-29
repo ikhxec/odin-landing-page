@@ -1,17 +1,35 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.sec-real{
+display: flex;
+justify-content: center;
+background-color: #1f2937;
+width: 100vw;
+min-width: 570px;
+
+}
 .sec-1{
     display: flex;
     flex-direction: column;
-    padding: 30px ; 
-   
-   
+  
+    gap: 60px;
+    background-color: #1f2937;
     
-
+    justify-content: center;
+    min-width: 570px;
+   margin: 20px;
+   margin-bottom: 50px;;
+    padding :20px;
 }
 .header {
     display: flex;
     justify-content: space-between;
-    
-    max-width: 900px;
+    align-self: initial;
+    max-width: 950px;
+    color: #e5e7eb;
 
 flex-shrink: 1;
 }
@@ -19,18 +37,48 @@ flex-shrink: 1;
     display: flex;
     justify-content: space-between;
     gap:24px;
- max-width: 900px;
-   flex-grow: 1;
+ max-width: 950px;
+   
+   flex: 0 1 auto;
+   color: #e5e7eb;
 }
 .hero-1{
     display: flex;
     flex-direction: column;
 
 }
-button{
-    align-self: baseline;
+.links{
+    display: flex;
+    gap: 12px;
 }
+
 img{
-    width: 450px;
+
+    width: 400px;
     height: 200px;
+}
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text , .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.signup
+{
+background-color: #3882f6; 
+ color:white;
+ align-self: baseline; 
+ border-radius: 4px;  
+ border: 1px solid #3882f6;
+ padding : 4px 24px; 
 }
